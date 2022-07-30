@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 1000px;
+  height: 3000px;
   background:
   linear-gradient(red, transparent),
   linear-gradient(to top left, lime, transparent),
@@ -52,11 +52,13 @@ background-blend-mode: screen;
   text-align: center;
 }
 
-.Item {
+.Items {
   text-align: center;
-  text-decoration: dashed;
 }
 
+.Item {
+  border: solid 1px ;
+}
 
 
 
