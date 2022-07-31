@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { Link, useParams } from "react-router-dom"
 import Item from "./Item"
 
 const API = process.env.REACT_APP_API_URL;

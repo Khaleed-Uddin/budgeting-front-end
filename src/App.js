@@ -10,11 +10,6 @@ import Show from "./Pages/Show"
 import Index from "./Pages/Index"
 
 import NavBar from "./Components/NavBar"
-import Item from "./Components/Item"
-import Items from "./Components/Items"
-import ItemDetails from "./Components/ItemDetails"
-import EditItems from "./Components/EditItems"
-import NewItems from "./Components/NewItems"
 
 export default function App() {
   return (

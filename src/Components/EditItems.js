@@ -24,7 +24,7 @@ export default function EditItems() {
     axios.get(`${API}/items/${index}`)
       .then(response => setItems(response.data))
       .catch(error => console.error(error))
-  }, []);
+  }, [index]);
 
   const updateItem = () => {
     axios.put(`${API}/items/${index}`, items)
