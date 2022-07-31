@@ -17,7 +17,7 @@ export default function ItemDetails() {
         .get(`${API}/items/${index}`)
         .then((response) => setItems(response.data))
         .catch((error) => navigate('/error'))
-    }, [index]);
+    });
 
   const handleDelete = () => {
     axios
